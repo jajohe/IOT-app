@@ -91,9 +91,9 @@ App({
       settSwitchSysUserBind: 'Switch User',
     },
     cn: {
-      homePageTitle: '奥克林 - OKLIN',
-      homeAddress: '地址：广州市萝岗区永和街道新庄二路32号',
-      homeTel: '电话：020-85647066',
+      homePageTitle: 'OK',
+      homeAddress: '地址：',
+      homeTel: '电话：020-',
 
       panelPageTitle: '设备状态',
       panelMachine: '号机',

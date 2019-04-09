@@ -1,0 +1,249 @@
+/**app.wxss**/
+@import 'ui/index.wxss';
+
+view,
+sroll-view,
+swiper,
+icon,
+text,
+progress,
+button,
+checkbox,
+form,
+input,
+label,
+input,
+picker,
+radio,
+slider,
+switch,
+action-sheet,
+modal,
+toast,
+loading,
+navigator,
+audio,
+image,
+video,
+map,
+canvas {
+  box-sizing: border-box;
+}
+.container,
+input,
+button {
+  font: 14px "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+}
+page{
+  background-color: #f5f5f5;
+}
+.container {
+  height: 100%;
+  padding: 25px;
+}
+.panel {
+  background: #fff;
+  border-radius: 3px;
+
+}
+.img-container{
+  display:flex;
+  flex-wrap:wrap;
+  box-sizing:content-box;
+  justify-content:center;
+  align-items:center;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-1{
+  flex: 1;
+}
+.flex-left{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+.flex-item{
+  padding: 10px;
+}
+.center-item{
+  text-align: center;
+}
+.center{
+  display:flex;
+  flex-direction:column;
+  align-items:center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+}
+.picker-button{
+  height: 26px;
+}
+.icon{
+  height: 18px;
+  width: 18px;
+}
+.zan-btn{
+  font-size: 18px;
+  border-radius:5px;
+}
+.select-btn{
+  color: white;
+  background-color: red;
+}
+.padding-10{
+  padding:10px; 
+}
+.padding-r10{
+  padding-right: 10px;
+}
+.padding-r0{
+  padding-right: 0;
+}
+.padding-b0{
+  padding-bottom:0; 
+}
+.padding-b10{
+  padding-bottom:10px; 
+}
+.padding-20{
+  padding:20px; 
+}
+.padding-b20{
+  padding-bottom:20px; 
+}
+.padding-b40{
+  padding-bottom:40px; 
+}
+.padding-30{
+  padding:30px; 
+}
+.padding-r3{
+  padding-right: 3px;
+}
+.padding-t3{
+  padding-top: 3px; 
+}
+.padding-5{
+  padding: 5px;
+}
+.padding-t5{
+  padding-top: 5px; 
+}
+.padding-t10{
+  padding-top: 10px; 
+}
+.padding-t15{
+  padding-top: 15px; 
+}
+.padding-w5{
+  padding:0 5px;
+}
+.padding-h30{
+  padding:30px 0;
+}
+.padding-b30{
+  padding-bottom:30px;
+}
+.padding-r5{
+  padding-right: 5px;
+}
+.padding-l5{
+  padding-left: 5px;
+}
+.padding-l10{
+  padding-left: 10px;
+}
+.padding-w20h10{
+  padding:10px 20px;
+}
+.padding-t20{
+  padding-top:20px;
+}
+.margin-t20{
+  margin-top: 20px;
+}
+.margin-b10{
+  margin-bottom: 10px;
+}
+.margin-b20{
+  margin-bottom: 20px;
+}
+.margin-l15{
+  margin-left: 15px;
+}
+.margin-w5{
+  margin: 0 5px;
+}
+.border-line {
+  background-color: #fff;
+  border:1rpx solid #e5e5e5;
+  border-radius: 5rpx;
+}
+.border-b1{
+  border-bottom: 1rpx solid #999;
+}
+.zan-c-white{
+  color: #fff;
+}
+.bk-c-gray{
+  background-color: #465a65;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.zan-c-lightgreen{
+  color: #a7d887;
+}
+.zan-font-50{
+  font-size: 50px;
+}
+.zan-font-36{
+  font-size: 36px;
+}
+.zan-font-24{
+  font-size: 24px;
+}
+.canvas {
+    width: 100%;
+    height: 200px;
+}
+.a-bk{
+  background-color: #3e3231;
+}
+.b-bk{
+  background-color: #2b2225;
+}
+.cell{
+  padding: 40rpx;
+  display:flex;
+  align-items:center;
+  border-bottom: 1rpx solid #3e3231;
+}
+.bl-col{
+  border-color: #2b2225;
+}
+.cell-icon{
+  display: flex;
+}
+.cell-text {
+  flex:1;
+  padding-left:20rpx;
+  color:#bfbfbf;
+}
+.cell-right{
+  font-weight: bold;
+}
+.icon-img{
+  vertical-align: middle;
+  width:50rpx; 
+  height: 50rpx;
+}
+.zan-c-orange{
+  color: #ffa753;
+}

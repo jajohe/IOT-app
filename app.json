@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/panel/panel",
+    "pages/settings/settings",
+    "pages/my/myMain",
+    "pages/common/wechatAuthorized",
+    "pages/user/bindSysUser"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2b2225",
+    "navigationBarTitleText": "咖啡设备"
+  },
+  
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
